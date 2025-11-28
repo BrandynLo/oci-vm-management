@@ -97,9 +97,13 @@ Upload the public key in OCI Console → Identity & Security → Users → [Your
 
 This will have the fingerprint ID that will be used in your main.tf credentials for "fingerprint". 
 
-Compartment ID found on the OCI website, SSH_PublicKey is the file location of your SSH public key, likely in "~/.ssh/my_oci_key.pub". 
+### Step 3.5: Generate an SSH key pair within ~/.ssh 
+```bash
+ssh-keygen -t rsa -b 2048 -f ~/.ssh/my_oci_key -N ""
+```
+This SSH key is meant to be used for the VMs to link your personal machine to them. DO NOT LOSE THIS.
+These keys will be located in ~/.ssh/my_oci_key.pub
 
-The Image OCID is created by you on the OCI website--steps below:
 ### Optional Step *skip if you want* -- for Custom OCID Image from Bucket
 
 
