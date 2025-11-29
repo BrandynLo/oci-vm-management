@@ -3,7 +3,7 @@
 [![OCI Provider](https://img.shields.io/badge/OCI%20Provider-v5%2B-orange.svg)](https://registry.terraform.io/providers/hashicorp/oci/latest)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This Terraform module provisions **multiple Ubuntu VMs with public SSH access in a dedicated Virtual Cloud Network (VCN)** on Oracle Cloud Infrastructure (OCI).
+This Terraform repo provisions **multiple Ubuntu VMs with public SSH access in a dedicated Virtual Cloud Network (VCN)** on Oracle Cloud Infrastructure (OCI).
 
 ### What this module creates:
 
